@@ -1,0 +1,27 @@
+.band-selector-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 570px) {
+  .band-selector-item {
+    border: none !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .band-selector-wrapper {
+    display: unset;
+  }
+
+  .band-selector-label {
+    display: none;
+  }
+
+  .band-selector-item {
+    border: unset;
+    display: inline-block !important;
+    width: 30px;
+    height: 30px;
+  }
+}

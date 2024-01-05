@@ -1,0 +1,16 @@
+.selector__button {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  background: none;
+}
+
+.selector__button:hover {
+  background: rgba(var(--theme-rgb), 0.1);
+}
+
+.selector__button:active {
+  background: rgba(var(--theme-rgb), 0.2);
+}

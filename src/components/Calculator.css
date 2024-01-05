@@ -1,0 +1,22 @@
+.result-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .result-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.band-selectors {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 570px) {
+  .band-selectors {
+    flex-direction: column;
+  }
+}
